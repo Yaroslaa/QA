@@ -1,0 +1,223 @@
+{
+  "id": "d72ddc56-d8ba-4327-b75f-4c8a14643250",
+  "version": "2.0",
+  "name": "task2",
+  "url": "https://www.olx.ua",
+  "tests": [{
+    "id": "29678157-83de-4514-82df-9fd9df4d0855",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5fe1ccf2-9e17-4f8f-9989-284b00e3a7be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d88e8dd2-0b94-4ed8-94fb-48fc696b7e7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90b18f58-6cfd-462d-9684-4112ecff89f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-icon-1532",
+      "targets": [
+        ["css=.cat-icon-1532", "css:finder"],
+        ["xpath=//section[@id='searchmain-container']/div/div/div/div[3]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34f9b353-c4f9-425e-8027-b58586384038",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fleft:nth-child(2) > .cat-1532 > .link > span",
+      "targets": [
+        ["css=.fleft:nth-child(2) > .cat-1532 > .link > span", "css:finder"],
+        ["xpath=//div[@id='bottom1532']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7811baf4-605b-4fc2-b0b2-45a11acb1fd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#subcatLink_electro_cars .block",
+      "targets": [
+        ["css=#subcatLink_electro_cars .block", "css:finder"],
+        ["xpath=//li[@id='subcatLink_electro_cars']/a/span", "xpath:idRelative"],
+        ["xpath=//li[17]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Электромобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fce6ded-3a71-43b8-8809-ff3cc0998bb3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,229)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7efe47cd-4bb1-4f3d-bdc5-7653a29610e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=choosecat",
+      "targets": [
+        ["id=choosecat", "id"],
+        ["linkText=Легковые автомобили", "linkText"],
+        ["css=#choosecat", "css:finder"],
+        ["xpath=//a[@id='choosecat']", "xpath:attributes"],
+        ["xpath=//table[@id='withshowboxTable']/tbody/tr/td[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[32]", "xpath:href"],
+        ["xpath=//td[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Легковые автомобили')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "382b9306-18d8-492d-a682-29c1c303a703",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все рубрики",
+      "targets": [
+        ["linkText=Все рубрики", "linkText"],
+        ["css=.hover > .rel", "css:finder"],
+        ["xpath=//a[contains(text(),'Все рубрики')]", "xpath:link"],
+        ["xpath=//ul[@id='categorySelectList']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[33]", "xpath:href"],
+        ["xpath=//td[3]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все рубрики')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db155665-a208-43fd-b8ef-9d7edc91f7ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-text",
+      "targets": [
+        ["id=search-text", "id"],
+        ["name=q", "name"],
+        ["css=#search-text", "css:finder"],
+        ["xpath=//input[@id='search-text']", "xpath:attributes"],
+        ["xpath=//table[@id='withshowboxTable']/tbody/tr/td/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2d81064-2b87-486f-b0ac-2353f01698be",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-text",
+      "targets": [
+        ["id=search-text", "id"],
+        ["name=q", "name"],
+        ["css=#search-text", "css:finder"],
+        ["xpath=//input[@id='search-text']", "xpath:attributes"],
+        ["xpath=//table[@id='withshowboxTable']/tbody/tr/td/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "книги"
+    }, {
+      "id": "71899040-a153-495a-82b8-f3a0eeaaf478",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-text",
+      "targets": [
+        ["id=search-text", "id"],
+        ["name=q", "name"],
+        ["css=#search-text", "css:finder"],
+        ["xpath=//input[@id='search-text']", "xpath:attributes"],
+        ["xpath=//table[@id='withshowboxTable']/tbody/tr/td/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7584d2f9-9dd8-4770-acf5-eac1466fad55",
+      "comment": "",
+      "command": "open",
+      "target": "https://prom.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbdeb0e3-4f19-41f7-9380-bde5ca7ccedc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-header__auth-item:nth-child(1) .x-header__controls-link-text",
+      "targets": [
+        ["css=.x-header__auth-item:nth-child(1) .x-header__controls-link-text", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a931a21-75cf-4fae-bc9e-5ddae4455b38",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_email",
+      "targets": [
+        ["id=phone_email", "id"],
+        ["name=phone_email", "name"],
+        ["css=#phone_email", "css:finder"],
+        ["xpath=//input[@id='phone_email']", "xpath:attributes"],
+        ["xpath=//div[@id='Z1681694C-0AD0-458B-8A4E-052C9AB68CF0']/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "wagawerg"
+    }, {
+      "id": "075c30b6-552c-4282-9edb-7624547de424",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='Z1681694C-0AD0-458B-8A4E-052C9AB68CF0']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac53bbdd-1286-4d77-8c7b-897eb5a01b11",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='Z1681694C-0AD0-458B-8A4E-052C9AB68CF0']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aEGWEG"
+    }, {
+      "id": "c424c823-5b6a-4917-80a6-6fcb500c4c6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login_button",
+      "targets": [
+        ["id=submit_login_button", "id"],
+        ["css=#submit_login_button", "css:finder"],
+        ["xpath=//button[@id='submit_login_button']", "xpath:attributes"],
+        ["xpath=//div[@id='Z1681694C-0AD0-458B-8A4E-052C9AB68CF0']/form/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8143c66-33a4-43b5-9da7-f0dee05e607c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29678157-83de-4514-82df-9fd9df4d0855"]
+  }],
+  "urls": ["https://www.olx.ua/"],
+  "plugins": []
+}
