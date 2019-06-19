@@ -1,0 +1,15 @@
+<acceptance-test-run title="Verify sub category" name="verifySubCategory" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16074" timestamp="2019-04-01T21:05:36.091+03:00">
+  <user-story id="package1.TestSerenity" name="Test serenity" path="package1"/>
+  <tags>
+    <tag name="Test serenity" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="40">
+    <description>Given the user visits a page&lt;span class=&apos;step-parameter&apos;&gt;https://pn.com.ua/&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14041">
+    <description>When the user chooses category Computer </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1803">
+    <description>When the user sees &lt;span class=&apos;step-parameter&apos;&gt;IT услуги&lt;/span&gt; subcategory</description>
+  </test-step>
+</acceptance-test-run>
